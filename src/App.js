@@ -1,10 +1,10 @@
 import './App.css';
-import PadreDeporte from './components/PadreDeporte';
+import Comics from './components/Comics';
 
 function App() {
   return (
     <div>
-      <PadreDeporte/>
+      <Comics/>
     </div>
   );
 }
