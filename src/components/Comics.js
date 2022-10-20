@@ -68,7 +68,7 @@ class Comics extends Component{
                     this.state.favorito &&
                     (<div style={{backgroundColor: "yellow"}}>
                         <h1 style={{color: "red" }}>{this.state.favorito.titulo}</h1>
-                        <img src={this.state.favorito.imagen} style={{width: "80px", height: "120px"}}/>
+                        <img src={this.state.favorito.imagen} style={{width: "80px", height: "120px"}} alt="Comics"/>
                     </div>)
                 }
                 
